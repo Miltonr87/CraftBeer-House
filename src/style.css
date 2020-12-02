@@ -6,7 +6,11 @@ main {
   background-color: #1b1c17;
 }
 
-h1, h2 {
+.nav-item {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font: normal 28px/33px Alfa Slab One;
     color: #e58900;
 }
@@ -26,6 +30,10 @@ body {
   color: #7a694c;
 }
 
+/*=========================================
+              Main
+=========================================*/
+
 .fonte-titulo {
   font-family: 'Alfa Slab One', cursive;
 }
@@ -34,7 +42,7 @@ body {
   /* Object-fit indicates how the element behaves in relation to his container */
   object-fit:cover; 
   /* Object-position move your images on axis X(90) and Y(0) */
-  object-position: 90% 0%; 
+  object-position: 55% 0%; 
   height: 700px;
 }
 
@@ -54,7 +62,7 @@ body {
 .card-imagem-top {
   height:200px;
   object-fit:cover;
-  object-position: 0 60%;
+  object-position: 0 80%;
 }
 
 .thumb-redondo {
@@ -62,7 +70,7 @@ body {
   width:250px; 
   height:250px; 
   object-fit:cover; 
-  object-position: 0 60%; 
+  object-position: 72% 0%;
 }
 
 .icones {
@@ -78,8 +86,8 @@ body {
 }
 
 .btn-cor-especial {
-  background-color: #1b1c17;
-  color:  #e58900;
+  background-color: #e58900;
+  color: white
 }
 
 #cor-titulo {
@@ -104,19 +112,15 @@ body {
   }
 }
 
-.icons {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
+/*=========================================
+              Service Box 
+=========================================*/
 
 .span4 {
     width: 300px;
 }
 
-[class*="span"] {
-    float: left;
+.span4 {
     min-height: 1px;
     margin-left: 20px;
 }
@@ -133,14 +137,10 @@ body {
     overflow: hidden;
     min-height: 20px;
     padding: 19px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     background-color: black;
     border: 1px solid #ddd;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
-    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
 }
 
@@ -164,6 +164,21 @@ body {
     background-repeat: repeat;
     margin-top: 0;
 }
+
+#abouticons {
+  background: url("../src/img/beercover.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
  
 [class^="icon"], [class*=" icon-"] {
     font-family: FontAwesome;
@@ -171,6 +186,9 @@ body {
     font-style: normal;
     text-decoration: inherit;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
@@ -178,7 +196,9 @@ body {
     display: inline-block;
 }
 
-/* Trophy */
+/*=========================================
+              Trophy Icon
+=========================================*/
 
 .icon-trophy:before {
     content: "\f091";
@@ -202,8 +222,9 @@ body {
     transition: all 0.3s ease 0s;
 }
 
-/* Beer */
-
+/*=========================================
+              Beer Icon
+=========================================*/
 
 .icon-beer:before {
   content: "\f0fc";
@@ -226,9 +247,9 @@ body {
     border-radius: 50%;
     transition: all 0.3s ease 0s;
 }
-
-/* Food */
-
+/*=========================================
+              Food Icon
+=========================================*/
 .icon-food:before {
   content: "\f0f5";
 }
