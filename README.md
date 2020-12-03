@@ -1,2 +1,2 @@
 # CraftBeer-House
- Landing Page made with Mobile First techniques with Bootstrap 4.5 
+ Landing Page made with Mobile First techniques, modals and Bootstrap 4.5 
