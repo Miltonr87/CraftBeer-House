@@ -200,7 +200,7 @@ body {
 }
 
 .service-box .icon-trophy:before {
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 64px;
     width: 64px;
     text-align: center;
@@ -209,7 +209,6 @@ body {
     height: 64px;
     border: 3px solid #e58900;
     border-radius: 50%;
-    transition: all 0.3s ease 0s;
 }
 
 /*=========================================
@@ -221,7 +220,7 @@ body {
 }
 
 .service-box .icon-beer:before {
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 64px;
     width: 64px;
     text-align: center;
@@ -230,7 +229,6 @@ body {
     height: 64px;
     border: 3px solid #e58900;
     border-radius: 50%;
-    transition: all 0.3s ease 0s;
 }
 /*=========================================
               Food Icon
@@ -240,7 +238,7 @@ body {
 }
 
 .service-box .icon-food:before {
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 64px;
     width: 64px;
     text-align: center;
@@ -249,7 +247,6 @@ body {
     height: 64px;
     border: 3px solid #e58900;
     border-radius: 50%;
-    transition: all 0.3s ease 0s;
 }
 
 /*=========================================
