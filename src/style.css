@@ -183,10 +183,6 @@ body {
     justify-content: center;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    display: inline-block;
-}
-
 /*=========================================
               Trophy Icon
 =========================================*/
