@@ -43,8 +43,16 @@ body {
   /* Object-fit indicates how the element behaves in relation to his container */
   object-fit:cover; 
   /* Object-position move your images on axis X(90) and Y(0) */
-  object-position: 55% 0%; 
+  object-position: 79% 15%;
   height: 700px;
+}
+
+@media (min-width: 300px) {
+.fit {
+  object-fit:cover;
+  object-position: 45%; 
+  height: 700px;
+}
 }
 
 .card-body {
@@ -179,6 +187,7 @@ body {
     font-style: normal;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
 }
 
