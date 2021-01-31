@@ -15,6 +15,10 @@ Made entirely in SPA style with Vanilla JS using **Mobile First techniques** [Le
 
 - Clone the repo (HTTP Protocol): ```git clone https://github.com/Miltonr87/CraftBeer-House.git```
 
+### Additional CDN and tools
+- [Bootstrap 4.5](https://getbootstrap.com/)
+- [UnsPlash Images](https://unsplash.com/)
+
 ### Live Demo 
 
 - [LIVE DEMO HERE](https://miltonr87.github.io/CraftBeer-House/)
