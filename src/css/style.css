@@ -202,64 +202,6 @@ body {
 }
 
 /*=========================================
-              Trophy Icon
-=========================================*/
-
-.icon-trophy:before {
-  content: "\f091";
-}
-
-.service-box .icon-trophy:before {
-  font-size: 2rem;
-  line-height: 64px;
-  width: 64px;
-  text-align: center;
-  background: #1b1c17;
-  color: #e58900;
-  height: 64px;
-  border: 3px solid #e58900;
-  border-radius: 50%;
-}
-
-/*=========================================
-              Beer Icon
-=========================================*/
-
-.icon-beer:before {
-  content: "\f0fc";
-}
-
-.service-box .icon-beer:before {
-  font-size: 2rem;
-  line-height: 64px;
-  width: 64px;
-  text-align: center;
-  background: #1b1c17;
-  color: #e58900;
-  height: 64px;
-  border: 3px solid #e58900;
-  border-radius: 50%;
-}
-/*=========================================
-              Food Icon
-=========================================*/
-.icon-food:before {
-  content: "\f0f5";
-}
-
-.service-box .icon-food:before {
-  font-size: 2rem;
-  line-height: 64px;
-  width: 64px;
-  text-align: center;
-  background: #1b1c17;
-  color: #e58900;
-  height: 64px;
-  border: 3px solid #e58900;
-  border-radius: 50%;
-}
-
-/*=========================================
               Social Media Icons
 =========================================*/
 
