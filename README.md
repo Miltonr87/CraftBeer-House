@@ -13,7 +13,7 @@ Made entirely in SPA style with Vanilla JS using **Mobile First techniques** [Le
 
 ## Mobile Mockup
 
-![Screen Shot](https://github.com/Miltonr87/CraftBeer-House/blob/main/mobile mockup.png)
+![Screen Shot](https://github.com/Miltonr87/CraftBeer-House/blob/main/mobile-mockup.png)
 
 ### Getting Started
 
