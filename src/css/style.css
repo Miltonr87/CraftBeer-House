@@ -4,11 +4,11 @@ html {
 
 main {
   background-color: #1b1c17;
-  font-family: cursive, FontAwesome;
+  font-family: Ubuntu;
 }
 
 .nav-item {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', Ubuntu;
 }
 
 h1,
@@ -41,7 +41,7 @@ body {
 =========================================*/
 
 .font-title {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'Alfa Slab One', Ubuntu;
 }
 
 .image-main {
@@ -206,16 +206,16 @@ body {
 =========================================*/
 
 .fa-facebook-square:before {
-  content: "\f082";
+  content: '\f082';
   color: #1b1c17;
 }
 
 .fa-instagram:before {
-  content: "\f16d";
+  content: '\f16d';
   color: #1b1c17;
 }
 
 .fa-twitter-square:before {
-  content: "\f081";
+  content: '\f081';
   color: #1b1c17;
 }
